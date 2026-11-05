@@ -1,0 +1,29 @@
+# A theme plugin is data only: no `wasm`, no activation, no capabilities.
+# Format follows the OpenIDEA 1.0 plugin manifest (`engines.openidea`).
+id = "huanglininn.nebula-aura"
+name = "Nebula Aura Theme"
+version = "1.3.0"
+description = "Nebula Aura Dark, Violet, Midnight and Light for OpenIDEA: neutral cool-grey surfaces, low-chroma borders, and pink/violet kept for accents."
+authors = ["Luis Mauro Penholato (original Nebula Aura Theme)", "huanglininn (OpenIDEA port)"]
+homepage = "https://github.com/luismpenholato/nebula-aura-theme"
+license = "MIT"
+change-notes = "1.3.0 — four complete themes (Dark, Violet, Midnight, Light) with neutral structural colours, accent-only pink/violet, separated hover/current/selection states, and full UI (117) plus editor scheme (107) token coverage."
+categories = ["themes"]
+engines.openidea = "^1.0"
+
+# One entry per theme. `editor-scheme` tokens are merged over the theme's.
+[[contributes.themes]]
+path = "themes/nebula-aura-dark.theme.json"
+editor-scheme = "themes/nebula-aura-dark.scheme.json"
+
+[[contributes.themes]]
+path = "themes/nebula-aura-violet.theme.json"
+editor-scheme = "themes/nebula-aura-violet.scheme.json"
+
+[[contributes.themes]]
+path = "themes/nebula-aura-midnight.theme.json"
+editor-scheme = "themes/nebula-aura-midnight.scheme.json"
+
+[[contributes.themes]]
+path = "themes/nebula-aura-light.theme.json"
+editor-scheme = "themes/nebula-aura-light.scheme.json"

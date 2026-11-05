@@ -1,0 +1,23 @@
+Nebula Aura Theme for OpenIDEA
+
+Original theme and colour palettes:
+  Nebula Aura Theme 0.0.8
+  Copyright (c) 2026 Luis Mauro Penholato
+  https://github.com/luismpenholato/nebula-aura-theme
+  Licensed under the MIT License; see LICENSE.
+
+Plugin format, token names and the Harbor Night completeness reference:
+  OpenIDEA main branch, plugins/README.md and docs/plugins/themes.md
+  Copyright (c) 2026 OpenIDEA contributors
+  https://github.com/l0ng-ai/openidea
+  Licensed under Apache License 2.0; see LICENSE.openidea.
+
+Changes for this port:
+  plugin.toml and all files under themes/ were created for OpenIDEA by
+  mapping Nebula Aura Dark, Violet and Midnight to OpenIDEA design tokens.
+  Version 1.1.0 rebuilt the base/surface/elevated/overlay hierarchy.
+  Version 1.2.0 introduced low-chroma neutral borders, distinct cool-grey
+  hover/current/selected states and neutral type/function/punctuation colours.
+  Version 1.3.0 redesigns all variants around neutral structural colours with
+  pink/violet as accents only, and restores Light as an independent near-white
+  design rather than a desaturated dark theme.
