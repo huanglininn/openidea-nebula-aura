@@ -63,6 +63,10 @@
     "--diff-modified": "#324352",
     "--diff-inserted": "#2d3c38",
     "--diff-deleted": "#432935",
+    "--diff-modified-stripe": "#4b657f",
+    "--diff-inserted-stripe": "#4d6a5f",
+    "--diff-deleted-stripe": "#815666",
+    "--diff-conflict-stripe": "#8b5351",
 
     // Shadows and window controls
     "--shadow-popup": "0 6px 20px rgba(0, 0, 0, 0.45)",
@@ -122,9 +126,9 @@
     "--focus-ring-soft": "#4d4859",
     "--scrollbar-thumb": "#8e899f5c",
     "--scrollbar-thumb-hover": "#8e899f94",
-    "--bg-search-match": "#d9b36a",
-    "--bg-search-match-current": "#e8c77e",
-    "--fg-search-match": "#17151e",
+    "--bg-search-match": "#574017",
+    "--bg-search-match-current": "#6d5120",
+    "--fg-search-match": "#eae8f1",
     "--bg-dialog": "#1d1a25",
     "--bg-popup-inline": "#1d1a25",
     "--bg-popup-advertiser": "#1d1a25",

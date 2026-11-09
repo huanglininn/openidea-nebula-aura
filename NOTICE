@@ -21,3 +21,10 @@ Changes for this port:
   Version 1.3.0 redesigns all variants around neutral structural colours with
   pink/violet as accents only, and restores Light as an independent near-white
   design rather than a desaturated dark theme.
+  Version 1.4.0 completes the 242 themeable tokens of OpenIDEA 0.1.39
+  (plugin API 1.3): the four diff stripe marks, --syn-global, and the Python
+  and PHP name groups; and moves the Dark, Violet and Midnight find and
+  go-to-result highlights to dark backgrounds, following the Islands scheme,
+  because a bright amber background left the light syntax colours unreadable.
+  The plugin icons under icons/ are vector redraws of the original icon.png
+  artwork from the Nebula Aura Theme repository.

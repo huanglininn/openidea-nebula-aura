@@ -63,6 +63,10 @@
     "--diff-modified": "#d8e1f4",
     "--diff-inserted": "#d9efe1",
     "--diff-deleted": "#efe1e4",
+    "--diff-modified-stripe": "#b6cdf2",
+    "--diff-inserted-stripe": "#abe0b8",
+    "--diff-deleted-stripe": "#d3c3c9",
+    "--diff-conflict-stripe": "#f2bdb0",
 
     // Shadows and window controls
     "--shadow-popup": "0 6px 20px rgba(0, 0, 0, 0.12)",
