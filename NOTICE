@@ -12,6 +12,12 @@ Plugin format, token names and the Harbor Night completeness reference:
   https://github.com/l0ng-ai/openidea
   Licensed under Apache License 2.0; see LICENSE.openidea.
 
+Cosmic Sorbet Day (syntax role assignment for Sorbet Mint):
+  Cosmic Sorbet, atraxsrc/cosmic-sorbet-theme
+  https://github.com/atraxsrc/cosmic-sorbet-theme
+  vscode/themes/cosmic-sorbetday-color-theme.json
+  Licensed under the MIT License.
+
 Changes for this port:
   plugin.toml and all files under themes/ were created for OpenIDEA by
   mapping Nebula Aura Dark, Violet and Midnight to OpenIDEA design tokens.
@@ -28,3 +34,7 @@ Changes for this port:
   because a bright amber background left the light syntax colours unreadable.
   The plugin icons under icons/ are vector redraws of the original icon.png
   artwork from the Nebula Aura Theme repository.
+  Version 1.5.0 adds Sorbet Mint, a light variant with mint surfaces sampled
+  from the reference screenshot and Cosmic Sorbet Day's syntax role
+  assignment; its palette, contrast calibration and mint surface hierarchy
+  were designed for this plugin.

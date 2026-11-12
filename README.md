@@ -1,6 +1,6 @@
 # Nebula Aura Theme for OpenIDEA
 
-A data-only colour theme plugin for OpenIDEA. It adds four themes to
+A data-only colour theme plugin for OpenIDEA. It adds five themes to
 _Settings › Plugins_ and applies them as design-token overrides; it ships no
 WebAssembly, asks for no capability and runs no code.
 
@@ -10,6 +10,7 @@ WebAssembly, asks for no capability and runs no code.
 | Nebula Aura Violet | `dark` | The same structure with a violet-tinted accent and slightly warmer syntax |
 | Nebula Aura Midnight | `dark` | Deepest blue-black base, teal-leaning accent, highest surface separation |
 | Nebula Aura Light | `light` | Near-white layered surfaces, pale violet selection, neutral borders |
+| Nebula Aura Sorbet Mint | `light` | Eye-comfort mint surfaces, Sorbet's teal keywords and plum types |
 
 ## What it themes
 
@@ -33,6 +34,11 @@ IDE's built-in palette changes.
   values in every theme, including Light.
 - Light is an independent design, not a desaturated dark theme: near-white
   layered surfaces, neutral borders, and body text at WCAG AA (≥ 4.5:1).
+- Sorbet Mint keeps that structure but moves it to mint: editor `#EDF3EE`,
+  panels `#E1EBE2`, chrome `#D5E3D7`. Syntax follows Cosmic Sorbet Day — teal
+  keywords, deep-green strings, plum types — and every text token is solved to
+  ≥ 4.5:1 on all seven surfaces it can appear on, including the comment and
+  line-number tokens the reference palette left below the threshold.
 - The plugin icon is a vector redraw of the original Nebula Aura artwork: a
   violet-to-cyan ring with stray aura motes. `icons/nebula-aura.svg` is the
   muted variant for light themes, `icons/nebula-aura-dark.svg` the bright one
