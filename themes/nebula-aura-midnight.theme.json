@@ -24,7 +24,7 @@
     "--control-off": "#7b8998",
 
     // Text
-    "--fg-strong": "#eef2f8",
+    "--fg-strong": "#dce1e9",
     "--fg-emphasis": "#dce3ee",
     "--fg": "#dce3ee",
     "--fg-secondary": "#a3afc0",
@@ -60,9 +60,10 @@
     "--gutter-modified": "#5f9fbf",
     "--gutter-added": "#5d9e82",
     "--gutter-deleted": "#a35a66",
-    "--diff-modified": "#2a4252",
-    "--diff-inserted": "#223737",
-    "--diff-deleted": "#3a242e",
+    // Diff viewer blends these translucently (fine lines 28%, coarse 70%); sized so whole-line bands stay calm while fine lines remain visible.
+    "--diff-modified": "#3d5e78",
+    "--diff-inserted": "#345955",
+    "--diff-deleted": "#653a4a",
     "--diff-modified-stripe": "#3f6680",
     "--diff-inserted-stripe": "#3e6660",
     "--diff-deleted-stripe": "#7f5262",
@@ -128,7 +129,7 @@
     "--scrollbar-thumb-hover": "#8996aa94",
     "--bg-search-match": "#4e3d21",
     "--bg-search-match-current": "#644e2a",
-    "--fg-search-match": "#eef2f8",
+    "--fg-search-match": "#dce1e9",
     "--bg-dialog": "#101520",
     "--bg-popup-inline": "#101520",
     "--bg-popup-advertiser": "#101520",

@@ -60,9 +60,10 @@
     "--gutter-modified": "#5f93b8",
     "--gutter-added": "#5d9e72",
     "--gutter-deleted": "#a35a66",
-    "--diff-modified": "#324352",
-    "--diff-inserted": "#2d3c38",
-    "--diff-deleted": "#432935",
+    // Diff viewer blends these translucently (fine lines 28%, coarse 70%); sized so whole-line bands stay calm while fine lines remain visible.
+    "--diff-modified": "#415c78",
+    "--diff-inserted": "#3b5e4e",
+    "--diff-deleted": "#693d4c",
     "--diff-modified-stripe": "#4b657f",
     "--diff-inserted-stripe": "#4d6a5f",
     "--diff-deleted-stripe": "#815666",
